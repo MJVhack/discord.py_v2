@@ -3,6 +3,9 @@ import asyncio
 import threading
 from discord import utils
 from datetime import timedelta
+import os
+import json
+from datetime import datetime
 
 class DiscordModifClient(discord.Client):
     def __init__(self):
@@ -281,11 +284,6 @@ def RenameServer(guild_id, new_name):
             print(f"[RenameServer] ❌ Erreur lors du renommage : {e}")
 
     asyncio.run_coroutine_threadsafe(_rename(), client.loop)
-
-
-import os
-import json
-from datetime import datetime
 
 async def _check(guild_id, log=True):
     guild = client.get_guild(guild_id)
