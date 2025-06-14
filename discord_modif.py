@@ -32,7 +32,7 @@ _bot_thread = None
 def _start_bot(token):
     asyncio.run(client.start(token))
 
-def start(token_path="modified_python/token.txt"):
+def start(token_path="token.txt"):
     global _bot_thread
     try:
         with open(token_path, "r") as f:
