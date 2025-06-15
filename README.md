@@ -25,4 +25,5 @@ Without this, the library return a error.
 
 # Command
 
-Not write
+All infos (in french only) in:
+https://mjvhack.github.io/documantation/discord_v2.html
