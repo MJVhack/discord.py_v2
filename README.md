@@ -26,4 +26,4 @@ Without this, the library return a error.
 # Command
 
 All infos (in french only) in:
-https://mjvhack.github.io/documantation/discord_v2.html
+https://mjvhack.github.io/documentation/discord_v2.html
